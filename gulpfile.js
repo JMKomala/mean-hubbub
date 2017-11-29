@@ -74,9 +74,9 @@ function buildApp(fileset) {
     }
 }
 
-gulp.task('watch', ['js' ], function () {
-    gulp.watch(source.js.src, { interval: 200 }, ['js'])
-})
+// gulp.task('watch', ['js' ], function () {
+//     gulp.watch(source.js.src, { interval: 200 }, ['js'])
+// })
 
 // builds vendor files listed in app.scripts.json
 gulp.task('vendor', () => buildVendor(scripts, destinations.js))
@@ -105,7 +105,7 @@ function buildVendor(scripts, dest) {
 }
 
 gulp.task('default', ['dev'])
-gulp.task('dev', ['vendor', 'js', 'watch'])
+gulp.task('dev', ['vendor', 'js'])
 
 const knownOptions = {
     string: 'packageName',
