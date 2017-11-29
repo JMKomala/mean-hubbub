@@ -1,0 +1,24 @@
+{
+    "chunks": {
+        "vendor": [
+            "jquery",
+            "bootstrap",
+            "angular",
+            "angular-ui-router",
+            "angular-bootstrap",
+            "highcharts",
+            "highcharts-ng",
+            "toastr"
+        ]
+    },
+    "paths": {
+        "jquery": "content/libs/jquery/dist/jquery.min.js",
+        "bootstrap": "content/libs/bootstrap/dist/js/bootstrap.min.js",
+        "angular": "content/libs/angular/angular.min.js",
+        "angular-ui-router": "content/libs/angular-ui-router/release/angular-ui-router.min.js",
+        "angular-bootstrap": "content/libs/angular-bootstrap/ui-bootstrap-tpls.min.js",
+        "highcharts": "content/libs/highcharts/highcharts.js",
+        "highcharts-ng": "content/libs/highcharts-ng/dist/highcharts-ng.min.js",
+        "toastr":"content/libs/angular-toastr/dist/angular-toastr.tpls.min.js"
+    }
+}
