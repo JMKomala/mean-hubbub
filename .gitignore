@@ -53,4 +53,3 @@ jspm_packages
 typings/
 
 # build folders
-**/build/**
